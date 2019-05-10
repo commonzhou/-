@@ -1,0 +1,22 @@
+<!--pages/index/index.wxml-->
+<view class="title">
+  <text class="titletext">茶画</text>
+</view>
+<view class="teamug">
+  <view class="teawater">
+  </view>
+</view>
+<view class="subtitle">
+  <view>
+    <text class="subitem" bindtap='gototeadraw'>茶戏</text>
+  </view>
+  <!-- <view>
+    <text class="subitem">茶罐</text>
+  </view> -->
+  <view>
+    <text class="subitem" bindtap='gotodocument'>茶经</text>
+  </view>
+</view>
+<view class="foottitle">
+  <text>Copyright © jinitaimei出品</text>
+</view>

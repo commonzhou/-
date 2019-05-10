@@ -1,0 +1,71 @@
+/* pages/document/document.wxss */
+
+.errEmoj {
+  position: absolute;
+  width: 400rpx;
+  height: 200rpx;
+  left: 50%;
+  top: 40%;
+  margin-left: -200rpx;
+  margin-top: -100rpx;
+  font-size: 100rpx;
+  text-align: center;
+}
+
+.errMsg {
+  position: absolute;
+  width: 400rpx;
+  height: 200rpx;
+  left: 50%;
+  top: 60%;
+  margin-left: -200rpx;
+  margin-top: -100rpx;
+  font-size: 50rpx;
+  text-align: center;
+}
+
+.teamug {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 240rpx;
+  height: 240rpx;
+}
+
+.teawater {
+  position: absolute;
+  width: 240rpx;
+  height: 200rpx;
+  background: #3a3226;
+  border-radius: 30% 30% 70% 70% / 20% 20% 100% 100%;
+}
+
+.teawater:before {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  top: -25rpx;
+  right: 2rpx;
+  width: 236rpx;
+  height: 100rpx;
+  background: #b7bf90;
+  background-image: linear-gradient(180deg, #b7bf90 0%, #b0e8b7 100%);
+  border-radius: 100%;
+  box-shadow: inset 0 12rpx 0 2rpx #ecddd6, 0 4rpx 0 1rpx #fff8f6;
+}
+
+.teawater:after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: 115rpx;
+  left: 46rpx;
+  width: 143rpx;
+  height: 80rpx;
+  background: #d9aa8c;
+  border-radius: 100%;
+  box-shadow: 4rpx 4rpx 26rpx 16rpx #d9aa8c;
+}

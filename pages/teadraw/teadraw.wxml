@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="tea_draw">
+        <canvas canvas-id='teaSoup' class='teaSoup' disable-scroll='false' bindtouchstart='touchStart' bindtouchmove='touchMove' bindtouchend='touchEnd'>
+        </canvas>
+  </view>
+  <view class='tea_tools'>
+    <!-- <view class='box box1' bindtap='penSelect' data-param='5'></view> -->
+    <view class='box box1' bindtap='penSelect' data-param='15'></view>
+    <view class='box box2' bindtap='whiteColorSelect' data-param='#1C1C1C'></view>
+    <view class='box box3' bindtap='redColorSelect' data-param='#ff9900'></view>
+    <view class='box box4' bindtap='clearTea'></view>
+  </view>
+</view>
